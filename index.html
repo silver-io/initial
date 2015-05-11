@@ -17,11 +17,9 @@
     <script>
  
     $( document ).ready(function() {
-    $( "a" ).addClass( "test" );
-    $( "a" ).removeClass( "test" );
     $( "a" ).click(function( event ) {
-        alert( "Links now don't work" );
         event.preventDefault();
+        $ ( this ).hide ( "slow" );
  
     	});
 	}); 
