@@ -1,0 +1,1 @@
+Following the tutorial http://learn.jquery.com/about-jquery/how-jquery-works/ to get a better idea on how jQuery works.
